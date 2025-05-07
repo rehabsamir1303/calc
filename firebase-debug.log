@@ -1,0 +1,134 @@
+[debug] [2025-05-05T08:31:45.542Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T08:31:45.545Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rnour\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-05-05T08:31:45.545Z] CLI Version:   14.2.2
+[debug] [2025-05-05T08:31:45.545Z] Platform:      win32
+[debug] [2025-05-05T08:31:45.545Z] Node Version:  v22.15.0
+[debug] [2025-05-05T08:31:45.545Z] Time:          Mon May 05 2025 11:31:45 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-05-05T08:31:45.546Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T08:31:45.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T08:31:45.730Z] > authorizing via signed-in user (r.noureldin2004@gmail.com)
+[debug] [2025-05-05T08:31:45.730Z] [iam] checking project static-web2 for permissions ["firebase.projects.get"]
+[debug] [2025-05-05T08:31:45.731Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:45.731Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:45.732Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions [none]
+[debug] [2025-05-05T08:31:45.732Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions x-goog-quota-user=projects/static-web2
+[debug] [2025-05-05T08:31:45.732Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:31:52.745Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions 200
+[debug] [2025-05-05T08:31:52.745Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:31:52.745Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:52.745Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:52.745Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 [none]
+[debug] [2025-05-05T08:31:53.509Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 200
+[debug] [2025-05-05T08:31:53.509Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 {"projectNumber":"779425890390","projectId":"static-web2","lifecycleState":"ACTIVE","name":"static web2","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-05-05T08:17:53.886107Z"}
+[info] 
+[info] === Serving from 'C:\Users\rnour\Desktop\static_web'...
+[info] 
+[debug] [2025-05-05T08:31:53.512Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:53.512Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:31:53.513Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 
+[debug] [2025-05-05T08:32:01.046Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 200
+[debug] [2025-05-05T08:32:01.046Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites {"sites":[{"name":"projects/static-web2/sites/static-web2","defaultUrl":"https://static-web2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-05-05T08:32:01.047Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:32:01.047Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:32:01.047Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config [none]
+[debug] [2025-05-05T08:32:06.759Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config 200
+[debug] [2025-05-05T08:32:06.759Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config {"projectId":"static-web2","storageBucket":"static-web2.firebasestorage.app","apiKey":"AIzaSyAXk29MMBUsI6Gmf4eDVbGA-fqGyXG1wFU","authDomain":"static-web2.firebaseapp.com","messagingSenderId":"779425890390"}
+[debug] [2025-05-05T08:32:06.766Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:32:06.766Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:32:06.766Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 [none]
+[debug] [2025-05-05T08:32:07.599Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 200
+[debug] [2025-05-05T08:32:07.599Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 {"projectId":"static-web2","projectNumber":"779425890390","displayName":"static web2","name":"projects/static-web2","resources":{"hostingSite":"static-web2"},"state":"ACTIVE","etag":"1_977af293-9f68-451b-b148-a23d2b77e438"}
+[info] i  hosting[static-web2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[static-web2]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-05-05T08:37:39.181Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T08:37:39.182Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rnour\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-05-05T08:37:39.183Z] CLI Version:   14.2.2
+[debug] [2025-05-05T08:37:39.183Z] Platform:      win32
+[debug] [2025-05-05T08:37:39.183Z] Node Version:  v22.15.0
+[debug] [2025-05-05T08:37:39.183Z] Time:          Mon May 05 2025 11:37:39 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-05-05T08:37:39.183Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T08:37:39.378Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T08:37:39.378Z] > authorizing via signed-in user (r.noureldin2004@gmail.com)
+[debug] [2025-05-05T08:37:39.378Z] [iam] checking project static-web2 for permissions ["firebase.projects.get"]
+[debug] [2025-05-05T08:37:39.379Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:39.379Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:39.379Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions [none]
+[debug] [2025-05-05T08:37:39.380Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions x-goog-quota-user=projects/static-web2
+[debug] [2025-05-05T08:37:39.380Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:37:39.870Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions 200
+[debug] [2025-05-05T08:37:39.870Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:37:39.871Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:39.871Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:39.871Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 [none]
+[debug] [2025-05-05T08:37:40.383Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 200
+[debug] [2025-05-05T08:37:40.383Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 {"projectNumber":"779425890390","projectId":"static-web2","lifecycleState":"ACTIVE","name":"static web2","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-05-05T08:17:53.886107Z"}
+[info] 
+[info] === Serving from 'C:\Users\rnour\Desktop\static_web'...
+[info] 
+[debug] [2025-05-05T08:37:40.386Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:40.386Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:40.386Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 
+[debug] [2025-05-05T08:37:41.584Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 200
+[debug] [2025-05-05T08:37:41.584Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites {"sites":[{"name":"projects/static-web2/sites/static-web2","defaultUrl":"https://static-web2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-05-05T08:37:41.584Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:41.584Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:41.584Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config [none]
+[debug] [2025-05-05T08:37:42.323Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config 200
+[debug] [2025-05-05T08:37:42.323Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config {"projectId":"static-web2","storageBucket":"static-web2.firebasestorage.app","apiKey":"AIzaSyAXk29MMBUsI6Gmf4eDVbGA-fqGyXG1wFU","authDomain":"static-web2.firebaseapp.com","messagingSenderId":"779425890390"}
+[debug] [2025-05-05T08:37:42.327Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:42.327Z] Checked if tokens are valid: true, expires at: 1746435213111
+[debug] [2025-05-05T08:37:42.327Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 [none]
+[debug] [2025-05-05T08:37:42.598Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 200
+[debug] [2025-05-05T08:37:42.598Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 {"projectId":"static-web2","projectNumber":"779425890390","displayName":"static web2","name":"projects/static-web2","resources":{"hostingSite":"static-web2"},"state":"ACTIVE","etag":"1_977af293-9f68-451b-b148-a23d2b77e438"}
+[info] i  hosting[static-web2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[static-web2]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-05-05T08:40:09.680Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T08:40:09.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rnour\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-05-05T08:40:09.684Z] CLI Version:   14.2.2
+[debug] [2025-05-05T08:40:09.684Z] Platform:      win32
+[debug] [2025-05-05T08:40:09.684Z] Node Version:  v22.15.0
+[debug] [2025-05-05T08:40:09.685Z] Time:          Mon May 05 2025 11:40:09 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-05-05T08:40:09.685Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T08:40:10.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T08:40:10.043Z] > authorizing via signed-in user (r.noureldin2004@gmail.com)
+[debug] [2025-05-05T08:40:10.044Z] [iam] checking project static-web2 for permissions ["firebase.projects.get"]
+[debug] [2025-05-05T08:40:10.045Z] Checked if tokens are valid: false, expires at: 1746435213111
+[debug] [2025-05-05T08:40:10.045Z] Checked if tokens are valid: false, expires at: 1746435213111
+[debug] [2025-05-05T08:40:10.046Z] > refreshing access token with scopes: []
+[debug] [2025-05-05T08:40:10.049Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-05-05T08:40:10.049Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-05T08:40:10.395Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-05-05T08:40:10.395Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-05T08:40:10.402Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions [none]
+[debug] [2025-05-05T08:40:10.402Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions x-goog-quota-user=projects/static-web2
+[debug] [2025-05-05T08:40:10.402Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:40:11.393Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions 200
+[debug] [2025-05-05T08:40:11.393Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-web2:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-05T08:40:11.393Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:11.394Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:11.394Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 [none]
+[debug] [2025-05-05T08:40:11.649Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 200
+[debug] [2025-05-05T08:40:11.650Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/static-web2 {"projectNumber":"779425890390","projectId":"static-web2","lifecycleState":"ACTIVE","name":"static web2","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-05-05T08:17:53.886107Z"}
+[info] 
+[info] === Serving from 'C:\Users\rnour\Desktop\static_web'...
+[info] 
+[debug] [2025-05-05T08:40:11.653Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:11.653Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:11.653Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 
+[debug] [2025-05-05T08:40:12.718Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites 200
+[debug] [2025-05-05T08:40:12.718Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/static-web2/sites {"sites":[{"name":"projects/static-web2/sites/static-web2","defaultUrl":"https://static-web2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-05-05T08:40:12.718Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:12.718Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:12.718Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config [none]
+[debug] [2025-05-05T08:40:13.524Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config 200
+[debug] [2025-05-05T08:40:13.524Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2/webApps/-/config {"projectId":"static-web2","storageBucket":"static-web2.firebasestorage.app","apiKey":"AIzaSyAXk29MMBUsI6Gmf4eDVbGA-fqGyXG1wFU","authDomain":"static-web2.firebaseapp.com","messagingSenderId":"779425890390"}
+[debug] [2025-05-05T08:40:13.527Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:13.527Z] Checked if tokens are valid: true, expires at: 1746438009395
+[debug] [2025-05-05T08:40:13.528Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 [none]
+[debug] [2025-05-05T08:40:13.803Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 200
+[debug] [2025-05-05T08:40:13.803Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-web2 {"projectId":"static-web2","projectNumber":"779425890390","displayName":"static web2","name":"projects/static-web2","resources":{"hostingSite":"static-web2"},"state":"ACTIVE","etag":"1_977af293-9f68-451b-b148-a23d2b77e438"}
+[info] i  hosting[static-web2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[static-web2]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
